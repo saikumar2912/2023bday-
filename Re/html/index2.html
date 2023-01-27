@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<script src="../js/index.js">
+
+	</script>
+	<meta charset="UTF-8">
+	<title>Css Flip Book</title>
+	<link rel="stylesheet" href="../css/styless.css">
+</head>
+
+<body>
+	<div class="book">
+		<input type="checkbox" id="c1">
+		<input type="checkbox" id="c2">
+		<input type="checkbox" id="c3">
+		<input type="checkbox" id="c4">
+		<div id="cover"><img src="../images/img12.jpg"></div>
+		<div class="flip-book">
+			<div class="flip" id="p1">
+				<div class="back">
+					<img src="../images//img13.jpg">
+					<label class="back-btn" for="c1">Back</label>
+				</div>
+				<div class="front">
+					<h2>Happy</h2>
+					<p>You are a warm cup of coffee on a rainy morning a soft blanket in the cold night, You are a special  gift from heavens your smile warms my heart and your presence makes me whole </p>
+					<label class="next-btn" for="c1">Next</label>
+				</div>
+			</div>
+			<div class="flip" id="p2">
+				<div class="back">
+					<img src="../images/image.jpg">
+					<label class="back-btn" for="c2">Back</label>
+				</div>
+				<div class="front">
+					<h2>Birthday</h2>
+					<p>My love grows and grows each and passing year sweet heart i cant image life withour you, i love you with three things the smiles the tears and the breath of all my life </p>
+					<label class="next-btn" for="c2">Next</label>
+				</div>
+			</div>
+
+			<div class="flip" id="p3">
+				<div class="back">
+					<label class="back-btn" for="c3">You can see again if you want </label>
+				</div>
+				<div class="front">
+					<h2>Kolandhai</h2>
+					<p>Happy birthday to the most special person in my life you are my love my heart and my joy, Happy birthday to the special lady that put the word us in the word husband </p>
+					<label class="next-btn" for="c3">Next</label>
+				</div>
+			</div>
+			<div>
+				<div class="front">
+					<button onclick="navigate()" class="next-btn" for="c4">Lets go for the next one </button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
